@@ -1,9 +1,9 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$body-bg: #d6e0f0;
+$body-color: #ff0000;
+$primary: steelblue;
+$font-family-base: "Lato", sans-serif;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -11,5 +11,76 @@ $font-family-base: Arial;
 // Add you custom CSS
 
 body {
-  margin: 20px;
+  margin: 50px;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 1.5em;
+}
+.progress {
+  margin-bottom: 20px;
+}
+
+.mySkills,
+.Introduction {
+  background-color: #eeeeee;
+  padding-top: 20px;
+}
+.Introduction {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+h4 {
+  padding: 20px;
+}
+
+.progress {
+  margin-left: 20px;
+}
+
+.btn-secondary {
+  background-color: #625261;
+  border-color: #625261;
+}
+
+.Übermich {
+  padding: 0;
+}
+
+.row featurette {
+  padding-top: 30px;
+}
+.bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto {
+  border-radius: 50%;
+}
+
+.row featurette {
+  padding-top: 20px;
+}
+
+.Introduction {
+  padding-top: 20px;
+}
+
+.lead {
+  padding-right: 20px;
+}
+
+.profilePic {
+  border-radius: 50%;
 }
