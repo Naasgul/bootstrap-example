@@ -1,15 +1,78 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
+$body-bg: #34495e;
+$body-color: rgb(128, 125, 125);
+$primary: #5da0a2;
 $font-family-base: Arial;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  margin: 20px;
+  margin: 40px;
+}
+
+section {
+  background-color: #f4f7f7;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.profilePic {
+  border-radius: 50%;
+  padding-left: 70px;
+}
+
+h4 {
+  padding-top: 20px;
+}
+
+.fa {
+  font-size: 2em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.col-md-6 {
+  margin-left: 0%;
+}
+
+.contact {
+  padding-top: 15px;
 }
