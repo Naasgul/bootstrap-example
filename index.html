@@ -39,13 +39,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#mySkills">Über mich</a>
+            <a class="nav-link" href="#Introduction">Über mich</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#mySkills">Meine Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mein CV</a>
+            <a class="nav-link" href="#myCV">Mein CV</a>
           </li>
         </ul>
         <span>
@@ -88,7 +88,7 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block text-dark">
             <h5>Second slide label</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -132,7 +132,7 @@
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">
             Über
-            <span class="text-muted">mich.</span>
+            <span class="text-muted">mich</span>
           </h2>
           <p class="lead">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
@@ -156,8 +156,8 @@
 
     <!-- carousel end, my skills start -->
 
-    <section id="mySkills" class="mySkills">
-      <h2>Meine Skills</h2>
+    <section id="mySkills">
+      <h2 class="mySkills">Meine Skills</h2>
 
       <h4>HTML, CSS und JavaScript</h4>
 
@@ -206,6 +206,91 @@
       </div>
     </section>
 
+    <section id="myCV">
+      <h2 class="mySkills">Meine CV</h2>
+
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <ul class="timeline">
+              <li>
+                <a target="_blank" href="https://www.totoprayogo.com/#"
+                  >Neue Fische Bootcamp</a
+                >
+                <a href="#" class="float-right">28.09.2020</a>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque scelerisque diam non nisi semper, et elementum lorem
+                  ornare. Maecenas placerat facilisis mollis. Duis sagittis
+                  ligula in sodales vehicula....
+                </p>
+              </li>
+              <li>
+                <a href="#">Werkstudent User Experience</a>
+                <a href="#" class="float-right">20.09.2020</a>
+                <p>
+                  Curabitur purus sem, malesuada eu luctus eget, suscipit sed
+                  turpis. Nam pellentesque felis vitae justo accumsan, sed
+                  semper nisi sollicitudin...
+                </p>
+              </li>
+              <li>
+                <a href="#">Studium Betriebswirtschaftslehre</a>
+                <a href="#" class="float-right">24.12.2019</a>
+                <p>
+                  Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed
+                  nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit.
+                  Sed nec tempor nibh...
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mySkills">
+      <h2 class="mySkills">Kontaktformular</h2>
+      <form class="contact">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </form>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
